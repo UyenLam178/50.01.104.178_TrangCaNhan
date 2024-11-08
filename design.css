@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('Png/BG.png');
+    background-size: cover; 
+    background-position: center 0.01px; 
+    background-repeat: no-repeat; 
+    height: 100%; 
+    margin: 0;
+}
+#title{
+    position: absolute; top: 11%; left: 38%;
+    color: #023E73;
+    font-size: 25px;
+}
+#Soluoc{
+    position: absolute;
+    top: 23%; left: 37%;
+    color: black;
+    font-size: 20px;
+}
+#tieudegioithieu{
+    position:absolute;
+    top: 50%; left: 15.5%;
+    color: black
+}
+#about{
+    position: absolute;
+    top: 55%; left: 15%;
+    color: black;
+    font-size: 20px;
+}
+#contact{
+    position: absolute;
+    top: 52%; left: 37%;
+    color:black;
+    font-size: 20px;
+}
+#Sởthích{
+    position:absolute;
+    top: 23%; left: 75%;
+    color: black;
+    font-size: 20px;
+}
+#activities{
+    position: absolute;
+    top: 38%; left: 75%;
+    color: black;
+    font-size: 18px;
+}
+#skill{
+    position: absolute;
+    line-height: 45px;
+    top: 70%; left: 25%;
+    color: black;
+    font-size: 20px;
+}
+#bar{
+    position: absolute; top: 77.75%; left: 39%;
+    width: 400px;          /* Độ rộng toàn màn hình */
+    height: 20px;         /* Chiều cao của thanh tiến độ */
+    background-color: #f3f3f3;  /* Màu nền */
+    border-radius: 10px;  /* Bo góc cho thanh tiến độ */
+    overflow: hidden;     /* Ẩn phần tử tràn ra ngoài */
+    
+}
+#bar-fill{ 
+    height: 100%;         /* Chiều cao chiếm toàn bộ chiều cao của thanh */
+    width: 70%;           /* Tiến độ ban đầu là 70% */
+    background-color: #4caf50;  /* Màu xanh cho thanh tiến độ */
+    text-align: center;   /* Căn giữa nội dung nếu có */
+    line-height: 20px;    /* Căn giữa chữ dọc */
+    color: white;         /* Màu chữ */
+    font-weight: bold;    
+    animation: fill 2s linear forwards;
+}
+#bar2{
+    position: absolute; top: 83.55%; left: 39%;
+    width: 400px;          /* Độ rộng toàn màn hình */
+    height: 20px;         /* Chiều cao của thanh tiến độ */
+    background-color: #f3f3f3;  /* Màu nền */
+    border-radius: 10px;  /* Bo góc cho thanh tiến độ */
+    overflow: hidden;     /* Ẩn phần tử tràn ra ngoài */
+}
+#bf2{
+    height: 100%;         /* Chiều cao chiếm toàn bộ chiều cao của thanh */
+    width: 70%;           /* Tiến độ ban đầu là 70% */
+    background-color: #871818;  /* Màu xanh cho thanh tiến độ */
+    text-align: center;   /* Căn giữa nội dung nếu có */
+    line-height: 20px;    /* Căn giữa chữ dọc */
+    color: white;         /* Màu chữ */
+    font-weight: bold;    
+    animation: fill1 2s linear forwards;
+}
+#bar3{
+    position: absolute; top: 89.25%; left: 39%;
+    width: 400px;          /* Độ rộng toàn màn hình */
+    height: 20px;         /* Chiều cao của thanh tiến độ */
+    background-color: #f3f3f3;  /* Màu nền */
+    border-radius: 10px;  /* Bo góc cho thanh tiến độ */
+    overflow: hidden;     /* Ẩn phần tử tràn ra ngoài */
+}
+#bf3{
+    height: 100%;         /* Chiều cao chiếm toàn bộ chiều cao của thanh */
+    width: 70%;           /* Tiến độ ban đầu là 70% */
+    background-color: #119ff7;  /* Màu xanh cho thanh tiến độ */
+    text-align: center;   /* Căn giữa nội dung nếu có */
+    line-height: 20px;    /* Căn giữa chữ dọc */
+    color: white;         /* Màu chữ */
+    font-weight: bold;    
+    animation: fill2 2s linear forwards;
+}
+#Val{
+    position: absolute;
+    line-height: 45px;
+    top: 76.45%; right: 29%;
+    color: black;
+    font-size: 22px;
+
+}
+#img{
+    position: absolute;
+    top: 24.25%; left: 16.99%;
+}
+@keyframes fill2{
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 85%;
+    }
+}
+@keyframes fill{
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 65%;
+    }
+}
+@keyframes fill1{
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 75%;
+    }
+}
